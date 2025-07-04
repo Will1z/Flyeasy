@@ -19,7 +19,13 @@ const PORT = process.env.PORT || 3001;
 
 // CORS middleware - must be first, before any other middleware
 app.use(cors({
-  origin: true, // Allow all origins for development
+  origin: [
+    'http://localhost:5174',
+    'http://localhost:3000',
+    'https://hopeful-harmony.railway.app',
+    /\.netlify\.app$/,
+    /\.netlify\.com$/
+  ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
