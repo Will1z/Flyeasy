@@ -23,6 +23,8 @@ app.use(cors({
     'http://localhost:5174',
     'http://localhost:3000',
     'https://hopeful-harmony.railway.app',
+    'https://flyeasy-production.up.railway.app',
+    'https://flyeasytodaydemo.netlify.app',
     /\.netlify\.app$/,
     /\.netlify\.com$/
   ],
