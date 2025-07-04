@@ -27,7 +27,8 @@ app.use(cors({
     'https://flyeasy-production.up.railway.app',
     'https://flyeasytodaydemo.netlify.app',
     /\.netlify\.app$/,
-    /\.netlify\.com$/
+    /\.netlify\.com$/,
+    /\.onrender\.com$/
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
