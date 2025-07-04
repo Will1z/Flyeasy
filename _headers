@@ -1,0 +1,2 @@
+/*
+  Content-Security-Policy: default-src 'self'; connect-src 'self' https://api.travelpayouts.com https://api.paystack.co https://api.openai.com https://api.aviationstack.com https://v6.exchangerate-api.com https://flyeasy-production.up.railway.app https://hopeful-harmony.railway.app; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; 
