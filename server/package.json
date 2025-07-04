@@ -21,6 +21,7 @@
     "jsonwebtoken": "^9.0.2",
     "moment": "^2.29.4",
     "nodemailer": "^6.9.8",
+    "openai": "^5.8.2",
     "sqlite3": "^5.1.6",
     "uuid": "^9.0.1"
   },
