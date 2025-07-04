@@ -57,6 +57,11 @@ app.use('/api/bookings', bookingRoutes);
 app.use('/api/ai', aiRoutes);
 app.use('/api/currency', currencyRoutes);
 
+// Root route for backend status
+app.get('/', (req, res) => {
+  res.send('Flyeasy API is running!');
+});
+
 // Health check endpoint
 app.get('/api/health', (req, res) => {
   res.json({ 
