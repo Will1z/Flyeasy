@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { SearchParams, Flight, Booking, User } from '../types';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://flyeasy-production.up.railway.app/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://flyeasy-backend.onrender.com/api';
 
 // Types
 export interface FlightSearchParams {
